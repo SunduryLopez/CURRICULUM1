@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="/w3css/4/w3.css">
+<html>
+
+<style>
+.w3-half {height:280px;padding-top:16px}
+</style>
+
+<body>
+<div class="w3-row">
+  <div class="w3-half w3-center" style="background:#f0f0f0">
+  <h2>CURRICULUM</h2>
+  <img src="imagenes\Image.jpg" widht="160" height="240"/>
+  </div>
+  <div class="w3-half w3-center w3-xlarge"  style="background:#c5d5c5">
+  <h2>SUNDURY VENECIA LÓPEZ VEGA</h2>
+  <p><span class="w3-tag w3-xxlarge">ACERCA DE MÍ</span></p>
+  <p>Mi pasatiempo favorito es leer, escuchar música y hacer ejercicio 
+  por las noches cuando termina mi día</p>
+<p><span class="w3-tag w3-xxlarge">¿A QUÉ ME DEDICO?</span></p>
+<p>Soy estudiante de preparatoria (Plantel J. Refugio Esparza Reyes)de la carrera de Informática 
+y al terminarla, estudiaré Derecho en el colegio Grupo Tecnológico Universitario para al finalizar,
+continuar con una segunda carrera como Psicología o comunicación Social. </p>
+ </div>
+</div>
+
+<div class="w3-row">
+  <div class="w3-half w3-center" style="background:#e3e0cc">
+<p><span class="w3-tag w3-xxlarge">HABILIDADES</span></p>
+<p> *Programación</p>
+<P>*Lectura y comprensión de documentos así como su modificación</p>
+<p><span class="w3-tag w3-xxlarge">EDUCACIÓN ACTUAL</span></p>
+<p>Profesional Técnico Bachillerato en Informática</p>
+  </div>
+  <div class="w3-half w3-center"  style="color:#fff;background:#9fa9a3">
+  <p><span class="w3-tag w3-xxlarge">CONTACTO</span></p>
+  <p>slopez1021@ags.conalep.edu.mx</p>
+  <p>449-305-54-70 </p>
+  <p> Te invito a ver mi vídeo<div> <video src="audio y video\videosun.mp4" widht="384" height="288" controls> </video> </div></p> 
+  <audio src="audio y video\audiosun.m4a" controls> </audio>
+  
+<form action="contact.php" method="post"> 
+
+<div class="elem-group"> 
+<label for="name">Nombre</label> 
+<input type="text" id="name" name="visitor_name" placeholder="Nombre de ejemplo" pattern=[A-Z\sa-z]{3,20} required> </div>
+
+<div class="elem-group"> 
+<label for="email">Correo electrónico</label> 
+<input type="email" id="email" name="visitor_email" placeholder="ejemplo@email.com" required> </div>
+
+<div class="elem-group"> 
+<label for="department-selection">Área a contactar</label> 
+<select id="department-selection" name="concerned_department" required> 
+<option value="">Selecciona un área</option> <option value="billing">Facturación</option> 
+<option value="marketing">Marketing</option> <option value="technical support">Servicio al cliente</option> </select> </div>
+
+<div class="elem-group"> 
+<label for="message">Solicitud</label> 
+<textarea id="message" name="visitor_message" placeholder="Escribe tu mensaje aquí." required></textarea> </div> 
+
+<button type="submit">Enviar mensaje</button></form>
+  </div>
+</body>
+</div>
+
+</body>
+
+</html>
